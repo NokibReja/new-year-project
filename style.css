@@ -1,0 +1,254 @@
+/*       body common shared style     */
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+/*          banner        */
+header{
+    margin-top: 50px;
+}
+.banner-contain {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.banner-contain img{
+    width:80%;
+    filter: brightness(0.5);
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-text h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-text h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+/*           discount section        */
+
+.discount-contain{
+    margin: 100px;
+    text-align: center;
+}
+.discount-title{
+    color: #ff0000;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.discount-contain p{
+    color: #ff0000;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.discount-contain h3{
+    color: #070211;
+    margin-top: 5px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.discount-contain img{
+    width: 50%;
+}
+
+/* midnight party section */
+
+.midnight-contian{
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.midnight-item{
+    position: absolute;
+    text-align: left;
+    padding-left: 10%;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+.midnight-img{
+    width:80%;
+    filter: brightness(0.4);
+}
+.midnight-item h1{
+    font-size: 64px;
+}
+.midnight-item p{
+    font-size: 18px;
+    opacity: 0.8;
+}
+.midnight-item button{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.midnight-right img{
+    width: 80%;
+    /* text-align: center; */
+}
+
+/*          best offer          */
+
+.best-offer{
+    padding: 10%;
+}
+.best-offer-contain{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.best-left h3{
+    color: #ff0000;
+    font-size: 24px;
+    margin: 100px 0 0 0;
+}
+.best-left h1{
+    color: #070211;
+    font-size: 48px;
+    margin: 0;
+}
+.best-offer-contain p{
+    color: #070211;
+    font-weight: 20px;
+    opacity: 0.8;
+}
+.best-right {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.best-right h1{
+    color: #ff0000;
+    margin: 0;
+    font-size: 48px;
+}
+
+/*        best gift      */
+
+.best-gift{
+    padding: 10%;
+    padding-top: 0;
+    /* text-align: center; */
+}
+.row{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.best-gift-text h3{
+    color: #ff0000;
+    font-size: 20px;
+    margin: 10px  0 0 0;
+}
+.best-gift-text h1{
+    color: #070211;
+    font-size: 48px;
+    margin: 0;
+}
+.best-gift-text p{
+    color: #070211;
+    font-weight: 20px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+.gift-img img{
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: border-color 0.3s ease;
+}
+img:hover{
+    border-color: #2c2835;
+}
+
+
+/*         Subscribe      */
+
+.subscribe{
+    margin: 10%;
+    padding: 5%;
+    margin-top: 0;
+    border-radius: 20px;
+    background-color: #fff2f2 ;
+    text-align: center;
+}
+.subscribe h1{
+    color: #070211;
+    font-size: 48px;
+    margin: 0;
+}
+.subscribe p{
+    color: #070211;
+    opacity: 0.8;
+    font-size: 18px;
+    margin: 20px;
+}
+.subscribe input{
+    font-size: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    padding: 20px;
+    margin-right: 0;
+}
+.subscribe button{
+    color: #fff;
+    background-color: #ff0000;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    padding: 20px;
+    margin-left: 0;
+}
+
+/*         footer sectin          */
+
+footer{
+    margin: 0;
+    color: #fff;
+    background-color: #070211;
+    text-align: center;
+    padding: 5% 10% ;
+    font-size: 20px;
+}
+.footer-start{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.footer-start img{
+    padding-top: 20px;
+}   
+.footer-middle{
+    margin: 50px;
+}
+.footer-end{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.footer-end button{
+    padding: 10px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+hr{
+    border: 1px solid #2c2835;
+}
